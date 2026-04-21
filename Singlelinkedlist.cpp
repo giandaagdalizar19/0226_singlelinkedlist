@@ -61,4 +61,38 @@ public:
         previous->next = nodeBaru;
        
     }
-};
+}
+        bool listempty()
+    {
+        return (START == NULL);
+    }
+
+        bool search(int nim, Node&previous, Node &current)
+{
+    previous = START;
+    current = START;
+
+    while (current != NULL && nim != current->noMhs)
+    {
+        previous = current;
+        current = current->next;
+    }
+
+
+bool delNode(int nim)
+    {
+    Nodecurrent, *previous;
+
+    if (!search(nim, previous, current))
+        return false;
+    }
+
+    return (current != NULL);
+}
+bool delNode(int nim)
+{
+    Nodecurrent, *previous;
+
+    if (!search(nim, previous, current))
+        return false;
+}
