@@ -114,3 +114,21 @@ public:
     }
 };
 
+int main()
+{
+    LinkedList mhs;
+    int nim;
+    char ch;
+
+    do
+    {
+        cout << "\nMenu: \n";
+        cout << "1. Menambah data ke dalam list\n";
+        cout << "2. Menghapus Data dari dalam list\n";
+        cout << "3. Menampilkan semua data di dalam list\n";
+        cout << "4. Mencari data dalam list" << endl;
+        cout << "5. Keluar\n";
+    }
+
+
+}
